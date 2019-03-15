@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Blog de Gastronomía</title>
+</head>
+<body>
+    <div class="grid-container"><!--Las clases han cambiado para la última versión por lo que e trabajado un poco con la documentación de la página oficial de Foundation-->
+        <header class="grid-x">
+            <div class="cell large-4 titulo-slogan">
+                <h1 class="titulo-pagina">CociLoco</h1>
+                <p class="slogan">Recetas Locas para impresionar a la familia</p>
+            </div>
+        </header>
+        <section class="grid-x general">
+            <section class="cell large-4 medium-4 small-12 contenedor-seccion-izquierda grid-x">
+                <div class="seccion-izquierda">
+                    <form class="grid-x menu align-center">
+                        <input type="search" placeholder="Buscar" class="cell large-10 medium-9 small-10">
+                        <button type="button" class="cell large-2 medium-3 small-2 button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <nav class="grid-x vertical menu">                    
+                        <a style="border-top: solid 1px #cacaca;" href="">Inicio</a>
+                        <a href="">Recetas</a>
+                        <a href="">Postres</a>                    
+                    </nav>
+                    <div class="favoritos hide-for-small-only">
+                        <h4>Favoritos</h4>
+                        <div class="grid-x fila-imagenes">
+                            <a class="cell large-4 medium-4 imagen-helado" href=""><img src="img/helado.jpg" alt="Helado"></a>
+                            <a class="cell large-4 medium-4 imagen-salmon" href=""><img src="img/salmon.jpg" alt="Salmón"></a>
+                            <a  class="cell large-4 medium-4 imagen-filete" href=""><img src="img/filete.jpg" alt="Filete"></a>
+                        </div>
+                        <div class="grid-x fila-imagenes">
+                            <a class="cell large-4 medium-4 imagen-hamburgueza" href=""><img src="img/hamburgueza.jpg" alt="Hamburgueza"></a>
+                            <a class="cell large-4 medium-4 imagen-pizza" href=""><img src="img/pizza.jpg" alt="Pizza"></a>
+                            <a class="cell large-4 medium-4 imagen-pasta" href=""><img src="img/pasta.jpg" alt="Pasta"></a>
+                        </div>
+                    </div>
+                    <div class="historial hide-for-small-only">
+                        <h4>Historial</h4>
+                        <ul>
+                            <li><a href="">Pasteles</a></li>
+                            <li><a href="">Helados</a></li>
+                            <li><a href="">Pastas</a></li>
+                            <li><a href="">Pizzas</a></li>
+                            <li><a href="">Hamburguezas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="cell large-8 medium-8 contenedor-seccion-derecha grid-x">
+                <div class="seccion-derecha">
+                    <article class="articulos">
+                        <h2>¿Como preparar hamburguezas?</h2>
+                        <h3 class="fecha">10 de Marzo del 2019</h3>
+                        <img src="img/hamburgueza.jpg" alt="Hamburgueza">
+                        <br>
+                        <br>
+                        <h3>Ingredientes:</h3>
+                        <ul>
+                            <li>1 kilo de carne molida baja en grasa</li>
+                            <li>2 huevos</li>
+                            <li>½ cebolla</li>
+                            <li>50 gr. de pan rallado</li>
+                            <li>½ pimentón verde</li>
+                            <li>Ajo</li>
+                            <li>Perejil</li>
+                            <li>Sal</li>
+                            <li>Pimienta</li>
+                        </ul>        
+                        <h3>Preparación.</h3>
+                        <p>
+                            Lavar y picar el ajo, la cebolla, el perejil y el pimentón.                               
+                            En un bowl, mezclar la carne molida con todos los ingredientes anteriores.
+                            Agregar los huevos y revolver.
+                            Finalmente, añadir el pan rallado y mezclar bien. Condimentar.
+                            Armar las hamburguesas amasándolas ligeramente con las manos.
+                            Introducir en el horno por 20 minutos hasta que estén cocidas.
+                        </p>
+                        <div class="grid-x contenedor-comentar">
+                            <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                            <label class="cell large-11 medium-10 small-10 comentar">
+                                <textarea name="comentar" class="estilo-caja-comentar" placeholder="Comentario"></textarea>
+                            </label>
+                            <button type="button" class="cell large-3 large-offset-9 medium-3 medium-offset-9 small-3 small-offset-9 button boton-comentar">Comentar</i></button>
+                        </div>
+                        <div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Juan Zeña:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Carlos Guerrero:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Jessica Cajusol:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="articulos">
+                        <h2>¿Como preparar hamburguezas?</h2>
+                        <h3 class="fecha">12 de Marzo del 2019</h3>
+                        <img src="img/hamburgueza.jpg" alt="Hamburgueza">
+                        <br>
+                        <br>
+                        <h3>Ingredientes:</h3>
+                        <ul>
+                            <li>1 kilo de carne molida baja en grasa</li>
+                            <li>2 huevos</li>
+                            <li>½ cebolla</li>
+                            <li>50 gr. de pan rallado</li>
+                            <li>½ pimentón verde</li>
+                            <li>Ajo</li>
+                            <li>Perejil</li>
+                            <li>Sal</li>
+                            <li>Pimienta</li>
+                        </ul>        
+                        <h3>Preparación.</h3>
+                        <p>
+                            Lavar y picar el ajo, la cebolla, el perejil y el pimentón.                               
+                            En un bowl, mezclar la carne molida con todos los ingredientes anteriores.
+                            Agregar los huevos y revolver.
+                            Finalmente, añadir el pan rallado y mezclar bien. Condimentar.
+                            Armar las hamburguesas amasándolas ligeramente con las manos.
+                            Introducir en el horno por 20 minutos hasta que estén cocidas.
+                        </p>
+                        <div class="grid-x contenedor-comentar">
+                            <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                            <label class="cell large-11 medium-10 small-10 comentar">
+                                <textarea name="comentar" class="estilo-caja-comentar" placeholder="Comentario"></textarea>
+                            </label>
+                            <button type="button" class="cell large-3 large-offset-9 medium-3 medium-offset-9 small-3 small-offset-9 button boton-comentar">Comentar</i></button>
+                        </div>
+                        <div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Juan Zeña:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Carlos Guerrero:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                            <div class="grid-x caja-comentarios">
+                                <div class="cell large-1 medium-2 small-2 imagen-usuario"><img src="img/imagen-usuario.png" alt="Usuario"></div>
+                                <div class="cell large-11 medium-10 small-10 comentario">
+                                    <h5 style="margin-bottom: 0;">Jessica Cajusol:</h5>
+                                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quam ut nobis tenetur est quis ducimus unde cumque in asperiores impedit sequi alias iste, commodi assumenda, explicabo optio minus enim.</p>
+                                </div>
+                            </div>
+                            </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

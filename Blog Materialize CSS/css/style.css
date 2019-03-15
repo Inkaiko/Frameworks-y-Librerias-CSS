@@ -1,0 +1,73 @@
+header {
+    margin-bottom: 0 !important;
+}
+
+p {
+    text-align: justify;
+}
+
+.contenedor-logo-slogan {
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 100%;
+}
+
+.slogan {
+    margin: 0;
+}
+
+.menu li {
+    width: 25%;
+}
+
+.contenedor-redes-imagenes {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.contenedor-fijo-redes {
+    position: fixed;
+}
+
+.redes {
+    margin-top: 4rem;
+}
+
+.redes li {
+    margin-bottom: 1.5rem;
+}
+
+.columna-imagenes {
+    padding: .35rem !important;
+}
+
+.columna-imagenes img {
+    margin-bottom: 0.5rem;
+}
+
+.entrada, .perfil-autor {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+}
+
+.titulo-personalizado {
+    margin-top: 0.75rem;
+    font-size: 2.5rem;
+}
+
+.contenedor-entradas-autor {
+    margin-bottom: 0;
+}
+
+.caja-comentario {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.imagen-autor {
+    margin-top: 2rem;
+}

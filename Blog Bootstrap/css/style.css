@@ -1,0 +1,89 @@
+header {
+    background-color: red;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.logo-musica {
+    min-width: 95px;
+}
+
+img[class^="icono"] {
+   max-width: calc(25% - 5px);
+   margin-top: 65px;
+   margin-left: 5px; /*Un poco de margen izquierdo ya que no me gusta que los iconos esten pegados*/
+   float: left;
+}
+.navbar {
+    background-color: orange;
+}
+
+.navbar a {
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.contenido {
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 15px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.imagen-articulo {
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.comentarios {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.texto-comentario {
+    border-radius: 10px;
+}
+
+.imagen-usuario {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.buscador {
+    margin-bottom: 15px;
+}
+
+.active {
+    background: red !important;
+}
+
+@media (max-width: 576px) {
+    img[class^="icono"] {
+        margin-top: 50px; /*Por estetica alineo verticalmente las redes*/
+    }
+}
+
+@media (max-width: 768px) {
+    .seccion-derecha {
+        display: none;
+    }
+
+    .imagen-usuario {
+        border-radius: 15px; /*Para pantallas pequeñas y extrapequeñas la imagen se vuelve rectangular con borde de 15px*/
+    }
+}
+

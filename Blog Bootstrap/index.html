@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog de Música</title>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-1 ofsset-lg-0 col-md-1 offset-md-0 col-sm-1 offset-sm-0 col-4">
+                <img class="logo-musica img-fluid" src="img/logo.png" alt="Logo Música">
+            </div>
+            <div class="col-lg-2 offset-lg-9 col-md-3 offset-md-8 col-sm-4 offset-sm-7 col-5 offset-3">
+                <a href="http://www.facebook.com" target="_blank"><img class="icono-facebook" src="img/icono-facebook.png" alt="Icono Facebook"></a>
+                <a href="http://www.twitter.com" target="_blank"><img class="icono-twitter" src="img/icono-twitter.png" alt="Icono Twitter"></a>
+                <a href="http://www.instagram.com" target="_blank"><img class="icono-instagram" src="img/icono-instagram.png" alt="Icono Instagram"></a>
+                <a href="http://www.youtube.com" target="_blank"><img class="icono-youtube" src="img/icono-youtube.png" alt="Icono Youtube"></a>
+            </div>
+        </header>
+        <nav class="row navbar"> <!--Pantallas extra pequeñas 2 columas por fila, pantallas largas y medianas 1 columna, pantallas pequeñas 3 columnas por fila-->
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Inicio</a>
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Artistas</a>
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Grupos</a>
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Top 10</a>
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Letras</a>
+            <a class="col-6 col-lg-2 col-md-2 col-sm-4" href="">Acordes</a> 
+        </nav>
+        <div class="row contenido">
+            <section class="col-lg-8 col-md-8">
+                <article class="row">
+                    <h1 class="col-lg-12">Rock</h1>
+                    <p class="col-lg-7">El rock es un término amplio que agrupa una variedad de géneros de música popular originados como rock and roll a principios de la década de 1950 en Estados Unidos y que evolucionó en un gran rango de diferentes estilos en los 60, particularmente en Reino Unido y Estados Unidos.1​2​ Posee sus raíces en el rock and roll de los 40 y 50, proveniente de la combinación de géneros anteriores como el blues, rhythm and blues y el country. La música rock también se nutrió fuertemente del blues eléctrico y ... 
+                    </p>
+                    <img class="col-lg-5 imagen-articulo" src="img/imagen-rock.jpg" alt="Imagen Rock">
+                    <div class="row comentarios">
+                        <img class="col-lg-2 col-md-2 col-sm-2 col-2 imagen-usuario" src="img/imagen-usuario.png" alt="Imagen Usuario">
+                        <textarea class="col-lg-10 col-md-10 col-sm-10 col-10 texto-comentario" name="texto-comentario" placeholder="Comentario:"></textarea>
+                    </div>
+                </article>
+                <br>
+                <article class="row">
+                    <h1 class="col-lg-12">Libido (Banda de Rock)</h1>
+                    <p class="col-lg-7 order-2">Libido es una banda peruana de rock alternativo originaria de Lima, Perú, formada en 1996 y activa hasta la fecha. La formación original del grupo estuvo constituida por Salim Vera (guitarra rítmica, vocalista), Manolo Hidalgo (guitarra principal o primera guitarra), Toño Jáuregui (bajo, coros) y Jeffry Fischman (batería).
+                    Influenciados fuertemente en sus inicios por el grunge de la época, la banda ha sabido como reinventarse a lo largo de toda su carrera. Habiendo así experimentado con distintas influencias para la comp...
+                    </p>
+                    <img class="col-lg-5 order-1 imagen-articulo" src="img/imagen-rock.jpg" alt="Imagen Rock">
+                    <div class="row comentarios order-3">
+                        <img class="col-lg-2 col-md-2 col-sm-2 col-2 imagen-usuario" src="img/imagen-usuario.png" alt="Imagen Usuario">
+                        <textarea class="col-lg-10 col-md-10 col-sm-10 col-10  texto-comentario" name="texto-comentario" placeholder="Comentario:""></textarea>
+                    </div>
+                </article>
+            </section>
+            <section class="col-lg-4 col-md-4 seccion-derecha">
+                <div class="input-group buscador">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar por">
+                </div>
+                <ul class="list-group lista-busqueda">
+                    <li class="list-group-item list-group-item-action">Blues</li>
+                    <li class="list-group-item list-group-item-action">Corrido</li>
+                    <li class="list-group-item list-group-item-action">Country</li>
+                    <li class="list-group-item list-group-item-action">Cumbia</li>
+                    <li class="list-group-item list-group-item-action">Disco</li>
+                    <li class="list-group-item list-group-item-action">Electrónica</li>
+                    <li class="list-group-item list-group-item-action">Flamenco</li>
+                    <li class="list-group-item list-group-item-action">Hip Hop</li>
+                    <li class="list-group-item list-group-item-action">Jazz​</li>
+                    <li class="list-group-item list-group-item-action">Merengue</li>
+                    <li class="list-group-item list-group-item-action">Pop</li>
+                    <li class="list-group-item list-group-item-action">Rap</li>
+                    <li class="list-group-item list-group-item-action">Reggae</li>
+                    <li class="list-group-item list-group-item-action active">Rock</li>
+                    <li class="list-group-item list-group-item-action">Salsa</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
